@@ -1,0 +1,28 @@
+{
+  "name": "library-3",
+  "version": "1.0.0",
+  "description": "A simple Node.js web server for Library 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.1.7"
+  },
+  "pkg": {
+    "assets": [
+      "index.html",
+      "Login.html",
+      "signup.html",
+      "dashboard.html",
+      "styles.css",
+      "script.js",
+      "script2.js",
+      "data.db"
+    ]
+  }
+}
